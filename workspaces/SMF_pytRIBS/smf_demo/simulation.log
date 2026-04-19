@@ -62,10 +62,10 @@ Parameter =   LANDTABLENAME			data/model/land/land_use_params.ldt
 Parameter =   LANDMAPNAME			data/model/land/LandUse.asc
 Parameter =   GWATERFILE			data/model/soil/InitGW_95pct_mm.asc
 Parameter =   OPTRADSHELT			0
-Parameter =   GAUGESTATIONS			../smf_init_data/met/precip_Frequency_100yr24hr copy.sdf
+Parameter =   GAUGESTATIONS			../smf_init_data/met/precip_Frequency_100yr24hr_copy.sdf
 Parameter =   RAINDISTRIBUTION			0
 Parameter =   BEDROCKFILE			data/model/soil/SOLUS_Bedrock_m.asc
-Parameter =   HYDROMETSTATIONS			../smf_init_data/met/Master_longterm_Met.sdf
+Parameter =   HYDROMETSTATIONS			../smf_init_data/met/Master_Met.sdf
 Parameter =   TEMPLAPSE			-0.0065
 Parameter =   PRECLAPSE			0
 Parameter =   HILLALBOPT			0
@@ -248,7 +248,7 @@ HydroNodeList File  not found.
 Creating Rainfall Setup...
 Rainfall Source: 		Raingauge Stations
 
-Reading Rain Gauge Station File '../smf_init_data/met/precip_Frequency_100yr24hr copy.sdf'...
+Reading Rain Gauge Station File '../smf_init_data/met/precip_Frequency_100yr24hr_copy.sdf'...
 
 Reading RainGauge Data File '../smf_init_data/met/precip_Frequency_100yr24hr.mdf'...
 
@@ -279,11 +279,11 @@ Node of Interest ID: 	1547 has been set up...
 
 Node of Interest ID: 	3082 has been set up...
 
-Reading HydroMeteorological Station File '../smf_init_data/met/Master_longterm_Met.sdf'...
+Reading HydroMeteorological Station File '../smf_init_data/met/Master_Met.sdf'...
 
-Reading HydroMeteorological Data File '../smf_init_data/met/met_SMF_longterm_1.mdf'...
+Reading HydroMeteorological Data File '../smf_init_data/met/met_SMF_1.mdf'...
 
-Reading HydroMeteorological Data File '../smf_init_data/met/met_SMPHQ_longterm_2.mdf'...
+Reading HydroMeteorological Data File '../smf_init_data/met/met_SMPHQ_2.mdf'...
 
 Using ID Land-Use Map
 
@@ -299,10 +299,10 @@ Hydrologic Simulation begins...
  tRIBS Water Balance Calculations
 
  Basin Rainfall = 464.494881 (m3)
- Basin Evaporation = 5.235358 (m3)
+ Basin Evaporation = 102.872547 (m3)
  Basin Runoff = 0.000000 (m3)
- Basin Canopy Storage = 0.489073 (m3)
- Basin Unsaturated Zone Storage = 1468.065473 (m3)
+ Basin Canopy Storage = 0.470564 (m3)
+ Basin Unsaturated Zone Storage = 1468.036403 (m3)
  Basin Saturated Zone Storage = 96.766219 (m3)
 -----------------------------------
 
