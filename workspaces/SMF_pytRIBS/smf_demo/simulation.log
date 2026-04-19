@@ -62,7 +62,7 @@ Parameter =   LANDTABLENAME			data/model/land/land_use_params.ldt
 Parameter =   LANDMAPNAME			data/model/land/LandUse.asc
 Parameter =   GWATERFILE			data/model/soil/InitGW_95pct_mm.asc
 Parameter =   OPTRADSHELT			0
-Parameter =   GAUGESTATIONS			../smf_init_data/met/precip_Frequency_100yr24hr_copy.sdf
+Parameter =   GAUGESTATIONS			../smf_init_data/met/precip_Frequency_100yr24hr.sdf
 Parameter =   RAINDISTRIBUTION			0
 Parameter =   BEDROCKFILE			data/model/soil/SOLUS_Bedrock_m.asc
 Parameter =   HYDROMETSTATIONS			../smf_init_data/met/Master_Met.sdf
@@ -248,7 +248,7 @@ HydroNodeList File  not found.
 Creating Rainfall Setup...
 Rainfall Source: 		Raingauge Stations
 
-Reading Rain Gauge Station File '../smf_init_data/met/precip_Frequency_100yr24hr_copy.sdf'...
+Reading Rain Gauge Station File '../smf_init_data/met/precip_Frequency_100yr24hr.sdf'...
 
 Reading RainGauge Data File '../smf_init_data/met/precip_Frequency_100yr24hr.mdf'...
 
